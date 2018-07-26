@@ -8,7 +8,7 @@ using TeduShopData.Infrrastructure;
 
 namespace TeDuShopData.Infrrastructure
 {
-    class UnitOfWork : IUnitOfWork
+   public class UnitOfWork : IUnitOfWork
     {
         private readonly IDbFactory dbFactory;
         private TeDuShopDbContext dbContext;
